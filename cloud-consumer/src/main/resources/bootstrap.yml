@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: spring-cloud-nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+service-url:
+  nacos-user-service: http://spring-cloud-nacos-provider

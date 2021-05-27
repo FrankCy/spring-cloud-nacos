@@ -1,4 +1,4 @@
-package com.frank.cloud.nacos;
+package com.frank.cloud.nacos.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
